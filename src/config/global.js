@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'I was wondering if <br> <span class= r--4>Me preguntaba si…</span> ',
+    descripcionCurso:
+      'Este componente va a ser la introducción al estudio de diferentes tipos de textos, se combinarán los tiempos verbales y se revisarán algunas lecturas cuyo tema principal es el empleo y la vida social. Se trabajará con características y diferencias de tipos de textos (descriptivo, expositivo y periodístico), técnicas de comprensión lectora (scanning y skimming), y comunicaciones escritas (e-mails y documents). Se estudiarán los marcadores de discurso y algo relacionado con preguntas formales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
