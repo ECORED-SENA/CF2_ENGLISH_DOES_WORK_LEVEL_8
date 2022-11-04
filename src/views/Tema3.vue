@@ -18,7 +18,7 @@
                   |After knowing how important having a job is, you are invited, as a learner, to see this video class and learn the vocabulary needed when talking about a job. 
                 .d-flex.justify-content-end
                   Audio.color-secundario.mx-3.mb-0(
-                    :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema3/1.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
@@ -40,7 +40,7 @@
                   |Now, listen to the following interview and try to answer what is asked: 
                 .d-flex.justify-content-end
                   Audio.color-secundario.mx-3.mb-0(
-                    :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema3/2.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
@@ -63,22 +63,22 @@
                       .col-lg-7
                         TarjetaAudio.bg-white.color-secundario.mb-2(
                           texto="Q: Why do you want to study in the US?"
-                          :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/temas/audios/tema3/3.mp3')"
                         ) 
                         p.ms-3.mb-1.fst-italic.fw-bold A: You
                         TarjetaAudio.bg-white.color-secundario.mb-2(
                           texto="Q: How much do you think your stay in the US will cost you?"
-                          :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/temas/audios/tema3/4.mp3')"
                         ) 
                         p.ms-3.mb-1.fst-italic.fw-bold A: You
                         TarjetaAudio.bg-white.color-secundario.mb-2(
                           texto="Q: Do you have any intention of remaining in the US?"
-                          :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/temas/audios/tema3/5.mp3')"
                         ) 
                         p.ms-3.mb-1.fst-italic.fw-bold  A: You
                       .col-lg-4
                         p.fst-italic.mb-3.ms-5 For more practice, download the document and complete the sentences.
-                        a.anexo.d-inline-block.ms-5(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" style='background-color: #3c3fa7; color: white') Descargar
+                        a.anexo.d-inline-block.ms-5(:href="obtenerLink('downloads/anexo1.pdf')" target="_blank" style='background-color: #3c3fa7; color: white') Descargar
                           .anexo__icono
                             img(src="@/assets/template/icono-pdf.svg")
                           .anexo__texto.text-white
@@ -162,27 +162,27 @@ export default {
           textoIng:
             'Hi, Mark. Thanks for coming today. I’m Linda Smith. Nice to meet you.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/6.mp3'),
         },
         {
           personaje: 'Candidate',
           textoIng: 'Hello. I’m Mark Turner. Nice to *** you, too.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/7.mp3'),
           palabra: 'meet',
         },
         {
           personaje: 'Personal manager',
           textoIng: 'Have you *** the information about this job?',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/8.mp3'),
           palabra: 'read  ',
         },
         {
           personaje: 'Candidate',
           textoIng: 'Yes, it *** very interesting.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/9.mp3'),
           palabra: 'sounds',
         },
       ],

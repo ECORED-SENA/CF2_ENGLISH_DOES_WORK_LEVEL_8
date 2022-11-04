@@ -596,7 +596,7 @@
                   br
                   br
                   |Text from: British Council. (2021). Cultural behaviour in business. 
-                a.anexo(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                a.anexo(href="https://learnenglish.britishcouncil.org/skills/reading/c1-reading/cultural-behaviour-in-business" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
@@ -607,13 +607,13 @@
             h5 Diccionario / Dictionary
             p If you want to check the meaning and pronunciation of the vocabulary provided in the text, you can make use of online tools such as 
           .col-lg-3 
-            a.anexo(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+            a.anexo(href="https://www.linguee.es/" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p Enlace web. Linguee 
           .col-lg-3 
-            a.anexo(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+            a.anexo(href="https://www.wordreference.com/" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
