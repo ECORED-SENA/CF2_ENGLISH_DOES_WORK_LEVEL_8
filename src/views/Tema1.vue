@@ -36,7 +36,7 @@
                       |A descriptive text is a text that explains what a person, place, or thing is like, often providing a visual experience using adjectives and adverbs. 
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/tema1/2.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -65,7 +65,7 @@
                       |Expository texts, or informational texts, are non-fiction texts that give facts and information about a topic. These academic texts are common in subjects such as science, history, and social sciences. There are numerous examples of expository texts, that include textbooks for school children, recipes, content on current affairs, and pamphlets on monuments and places.  
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/tema1/3.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -85,7 +85,7 @@
                         |Journalistic writing is a form of non-fiction writing used to report news and factual events. It can be newspaper articles, television reports, radio scripts, and on news websites. As it is written to inform, journalistic writing usually consists of short sentences and paragraphs that get to the point of the article quickly.
                       .d-flex.justify-content-end
                         Audio.color-secundario.mx-3(
-                          :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/temas/audios/tema1/4.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
 
@@ -120,7 +120,7 @@
               |5. Think before writing, create a map of ideas.
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema1/5.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -143,7 +143,7 @@
             p.fst-italic Now, you will have the opportunity to practice reading texts and match them with an image that exemplifies the narration. Keep in mind that in all cases you must identify the purpose of the text, the noun of the sentence, the adverbs used to describe actions, and/or the adjectives that describe the noun, respectively. If there is unknown vocabulary, please write it and make sure you learn it through permanent use.
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema1/6.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -157,18 +157,33 @@
           .text-center.fst-italic
             h5 The sunset
             p The sunset filled the entire sky with the deep color of rubies, setting the clouds ablaze.
+          .d-flex.justify-content-center
+            Audio.color-secundario.mx-3(
+              :audio="require('@/assets/curso/temas/audios/tema1/7.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
       .col-lg-4
         .tarjeta.bg-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/8.png', alt='').mb-4
           .text-center.fst-italic
             h5 The waves crashed
             p The waves crashed and danced along the shore, moving up and down in a graceful and gentle rhythm like they were dancing.
+          .d-flex.justify-content-center
+            Audio.color-secundario.mx-3(
+              :audio="require('@/assets/curso/temas/audios/tema1/8.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
       .col-lg-4
         .tarjeta.bg-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/9.png', alt='').mb-4
           .text-center.fst-italic
             h5 The painting
             p The painting was a field of flowers, with deep and rich blues and yellows atop vibrant green stems that seemed to beckon you to reach right in and pick them.
+          .d-flex.justify-content-center
+            Audio.color-secundario.mx-3(
+              :audio="require('@/assets/curso/temas/audios/tema1/9.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
     .row.justify-content-center.mb-5
       .col-lg-4
         .tarjeta.bg-hover.p-4.h-100
@@ -176,18 +191,33 @@
           .text-center.fst-italic
             h5 The old man
             p The old man was stooped and bent, his back making the shape of a C and his head bent so far forward that his beard would nearly have touched his knobby knees had he been just a bit taller.
+          .d-flex.justify-content-center
+            Audio.color-secundario.mx-3(
+              :audio="require('@/assets/curso/temas/audios/tema1/10.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
       .col-lg-4
         .tarjeta.bg-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/11.png', alt='').mb-4
           .text-center.fst-italic
             h5 Soulful blue eyes
             p His deep and soulful blue eyes were like the color of the ocean on the clearest day you can ever imagine.
+          .d-flex.justify-content-center
+            Audio.color-secundario.mx-3(
+              :audio="require('@/assets/curso/temas/audios/tema1/11.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
       .col-lg-4
         .tarjeta.bg-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/12.png', alt='').mb-4
           .text-center.fst-italic
             h5 The soft fur
             p The soft fur of the dog felt like silk against my skin and her black coloring glistened as it absorbed the sunlight, reflecting it back as a perfect, deep, dark mirror.
+          .d-flex.justify-content-center
+            Audio.color-secundario.mx-3(
+              :audio="require('@/assets/curso/temas/audios/tema1/12.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
     .margin-n.p-5.mb-5.bg-t2
       .row.justify-content-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right")
@@ -200,7 +230,7 @@
                 |Now, try to study these flashcards of the descriptive adjectives which can be useful to create descriptions while practicing definitions instead of meanings.
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3(
-                  :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/tema1/13.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -217,7 +247,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/14.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p.text-center 
@@ -228,7 +258,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/15.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -239,7 +269,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/16.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -250,7 +280,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/17.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -261,7 +291,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/18.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -272,7 +302,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/19.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -283,7 +313,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/20.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -294,7 +324,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/21.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -306,7 +336,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/22.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -317,7 +347,7 @@
             .tarjeta.bg-white.p-2.mb-5
               .d-flex.justify-content-center.mb-3
                 Audio.color-secundario.mx-3(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/23.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p 
@@ -334,7 +364,7 @@
                 p.fst-italic Verb tenses are verb forms (visit, visited, will visit) which English speakers use to talk about the past, present, and future in their language. There are twelve verb tense forms in English. For English students, knowing how to use English tenses can be quite a challenge. Let’s get started!
                 .d-flex.justify-content-end
                   Audio.color-secundario.mx-3(
-                    :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema1/24.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
@@ -403,7 +433,7 @@
                   .col-lg-9
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She eats lunch at 12:00 every Monday."
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/25.mp3')"
                     )
                     p.ms-3(style='color: #777777 ') Ella almuerza todos los lunes a las 12:00.
           div 
@@ -414,7 +444,7 @@
                     p.fst-italic The simple future refers to a time after the present and expresses facts or certainties. The future simple is used: to predict a future event, to express a spontaneous decision, to express will or willingness to do something. 
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/tema1/26.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -427,14 +457,14 @@
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She <span class= r--1>will go</span> to the hospital."
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/27.mp3')"
                     )
                 .row.justify-content-center.mb-5
                   .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/28.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She <span class= r--1>will not</span> sleep well. "
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/28.mp3')"
                     )
               .col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/29.png', alt='')    
           div 
@@ -445,7 +475,7 @@
                     p.fst-italic As It has been said before, the past simple is a verb tense that expresses situations or actions that occurred in the past, and although they can be from the recent past or the distant past, their duration is not important; It should only be understood that these have already ended. Here are some examples to figure this out.
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/tema1/29.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -458,14 +488,14 @@
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She had an exam. "
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/30.mp3')"
                     )
                 .row.justify-content-center.mb-5
                   .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/31.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
                       texto="They were worried."
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/31.mp3')"
                     )
               .col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/32.png', alt='')  
     .row.justify-content-center.mb-5
@@ -475,7 +505,7 @@
             p.fst-italic To be able to put into practice the verb tenses (present, past, and future) studied before, please, read the following text and practice thinking the correct verb. 
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema1/32.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -605,7 +635,7 @@
                 |It should be noted that irregular verbs fulfill the same functions as regular verbs, that is, to express states or actions, and are located within the sentence in the same position as regular verbs.
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3(
-                  :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/tema1/33.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -666,7 +696,7 @@
                       |#[b I felt silly.]
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/tema1/34.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -689,7 +719,7 @@
               p.fst-italic.mb-0 Now let´s use the tenses in simple sentences which are placed in the following cards; pay attention to the structure, for instance, if it is a simple sentence (subject and verb), or past simple sentences (subject and verb in past), or future tense (subject and will and verb):
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3.mb-0(
-                  :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/tema1/35.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -704,7 +734,7 @@
                 .tarjeta(style='background-color: #ffdfe0;').py-2.px-4
                   .d-flex.justify-content-center
                     Audio.color-secundario.mx-3.mb-2(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/36.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
@@ -735,7 +765,7 @@
                 .tarjeta(style='background-color: #fff0f1;').py-2.px-4
                   .d-flex.justify-content-center
                     Audio.color-secundario.mx-3.mb-2(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/37.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
@@ -762,7 +792,7 @@
                 .tarjeta(style='background-color: #ff9fa3;').py-2.px-4
                   .d-flex.justify-content-center
                     Audio.color-secundario.mx-3.mb-2(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/38.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
@@ -792,7 +822,7 @@
                 .tarjeta(style='background-color: #ffbfc1;').py-2.px-4
                   .d-flex.mb-5.justify-content-center
                     Audio.color-secundario.mx-3.mb-0(
-                      :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/39.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
@@ -927,7 +957,7 @@
               |Remember that, although it provides a global image, it reduces reading comprehension, so it is not useful for an in-depth study. Of course, it serves to analyze contexts and review.
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3.mb-0(
-                :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema1/40.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
