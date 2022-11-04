@@ -12,13 +12,12 @@
         .contenedor-traductor(style='background-color: #dddeff').mb-5
           .contenedor-traductor__eng
             p.fst-italic The types of texts are descriptive, expository and journalistic. In a descriptive text, the writer needs to make the reader dream about a person, place, or object. In the majority of descriptive essays, there is a detailed description, it sometimes has the feelings or perceptions of the writer.
-            .d-flex.mb-5.justify-content-end
+            .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
                 :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
-          //TODO: traducir
           .contenedor-traductor__esp(:class="{ mostrar: dg1}")
             p Los tipos de textos son descriptivos, expositivos y periodísticos. En un texto descriptivo, el escritor necesita hacer que el lector describa una persona, un lugar o un objeto. En la mayoría de los ensayos descriptivos, hay una descripción detallada; a veces, este contiene los sentimientos o percepciones del escritor. A continuación, conozca más sobre este tema.
           a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
@@ -35,16 +34,19 @@
                       br
                       br
                       |A descriptive text is a text that explains what a person, place, or thing is like, often providing a visual experience using adjectives and adverbs. 
-                    .d-flex.mb-5.justify-content-end
+                    .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
                         :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
-                      //TODO: traducir
-                    .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                      p 
-                    a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+                    .contenedor-traductor__esp(:class="{ mostrar: dg2}")
+                      p Texto descriptivo:
+                        br
+                        br
+                        |Un texto descriptivo es un texto que explica cómo es una persona, un lugar o una cosa, a menudo, brindando una experiencia visual usando adjetivos y adverbios.
+
+                    a.boton-traduccion(@click='dg2 = !dg2' style='background-color: #fed947; color: #12263F') Ver traducción
                 .tarjeta(style="background-color: #f6f6f6").p-3
                   .row.justify-content-center.align-items-center
                     .col-lg-3.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/2.svg', alt='')
@@ -54,6 +56,25 @@
                         |Penguins are birds and, although they cannot fly, they can swim very well.
                         br
                         |Their bodies are black, white, and have a yellow neck. 
+              div
+                .contenedor-traductor(style='background-color: #dddeff').mb-5
+                  .contenedor-traductor__eng
+                    p.fst-italic #[b Expository texts:]
+                      br
+                      br
+                      |Expository texts, or informational texts, are non-fiction texts that give facts and information about a topic. These academic texts are common in subjects such as science, history, and social sciences. There are numerous examples of expository texts, that include textbooks for school children, recipes, content on current affairs, and pamphlets on monuments and places.  
+                    .d-flex.justify-content-end
+                      Audio.color-secundario.mx-3(
+                        :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                        @audio-hover="mostrarIndicadorAudio = false"
+                      )
+
+                    .contenedor-traductor__esp(:class="{ mostrar: dg4}")
+                      p Texto expositivo:
+                          br
+                          br
+                          |Los textos expositivos, o textos informativos, son textos de no ficción que brindan hechos e información sobre un tema. Estos textos académicos son comunes en materias como ciencias, historia y ciencias sociales. Hay numerosos ejemplos de textos expositivos, que incluyen libros de texto para escolares, recetas, contenidos de actualidad y folletos sobre monumentos y lugares.
+                    a.boton-traduccion(@click='dg4 = !dg4' style='background-color: #fed947; color: #12263F') Ver traducción
               .row.justify-content-center.mb-5
                 .col-lg-7.mblg-0.mb-3
                   .contenedor-traductor(style='background-color: #dddeff').mb-5
@@ -62,34 +83,21 @@
                         br
                         br
                         |Journalistic writing is a form of non-fiction writing used to report news and factual events. It can be newspaper articles, television reports, radio scripts, and on news websites. As it is written to inform, journalistic writing usually consists of short sentences and paragraphs that get to the point of the article quickly.
-                      .d-flex.mb-5.justify-content-end
+                      .d-flex.justify-content-end
                         Audio.color-secundario.mx-3(
                           :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
 
-                        //TODO: traducir
-                      .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                        p 
-                      a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
-                .col-lg-5.col-6: img(src='@/assets/curso/temas/tema1/3.svg', alt='')
-              div
-                .contenedor-traductor(style='background-color: #dddeff').mb-5
-                  .contenedor-traductor__eng
-                    p.fst-italic #[b Expository texts:]
-                      br
-                      br
-                      |Expository texts, or informational texts, are non-fiction texts that give facts and information about a topic. These academic texts are common in subjects such as science, history, and social sciences. There are numerous examples of expository texts, that include textbooks for school children, recipes, content on current affairs, and pamphlets on monuments and places.  
-                    .d-flex.mb-5.justify-content-end
-                      Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
-                        @audio-hover="mostrarIndicadorAudio = false"
-                      )
+                      .contenedor-traductor__esp(:class="{ mostrar: dg3}")
+                        p Textos periodísticos:
+                          br
+                          br
+                          |La escritura periodística es una forma de escritura de no ficción utilizada para informar noticias y hechos reales. Pueden ser artículos de periódicos, reportajes de televisión, guiones de radio y sitios web de noticias. Como se escribe para informar, la redacción periodística suele consistir en frases cortas y párrafos que llegan rápidamente al punto del artículo.
 
-                      //TODO: traducir
-                    .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                      p 
-                    a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+
+                      a.boton-traduccion(@click='dg3 = !dg3' style='background-color: #fed947; color: #12263F') Ver traducción
+                .col-lg-5.col-6: img(src='@/assets/curso/temas/tema1/3.svg', alt='')
                 .row.justify-content-center.mb-5
                   .col-lg-6: img(src='@/assets/curso/temas/tema1/4.svg', alt='')
         .col-lg-3.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/5.svg', alt='')
@@ -110,29 +118,38 @@
               |4. Use sensory details, like the smell of something, to help the readers to make an image of something.
               br
               |5. Think before writing, create a map of ideas.
-            .d-flex.mb-5.justify-content-end
+            .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
                 :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
-              //TODO: traducir
-            .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-              p 
-            a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+            .contenedor-traductor__esp(:class="{ mostrar: dg5}")
+              p A modo de resumen, hay algunos consejos que puede tener en cuenta para escribir un gran texto, sea descriptivo, expositivo o periodístico.
+                br
+                |1. Escriba los eventos en orden, de forma coherente.
+                br
+                |2. Use palabras o frases que no sean literales.
+                br
+                |3. Use verbos fuertes.
+                br
+                |4. Use detalles sensoriales, como el olor de algo, para ayudar a los lectores a crear una imagen de algo.
+                br
+                |5. Piense antes de escribir, cree un mapa de ideas.
+
+            a.boton-traduccion(@click='dg5 = !dg5' style='background-color: #fed947; color: #12263F') Ver traducción
         .contenedor-traductor(style='background-color: #dddeff').mb-5
           .contenedor-traductor__eng
             p.fst-italic Now, you will have the opportunity to practice reading texts and match them with an image that exemplifies the narration. Keep in mind that in all cases you must identify the purpose of the text, the noun of the sentence, the adverbs used to describe actions, and/or the adjectives that describe the noun, respectively. If there is unknown vocabulary, please write it and make sure you learn it through permanent use.
-            .d-flex.mb-5.justify-content-end
+            .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
                 :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
-              //TODO: traducir
-            .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-              p 
-            a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+            .contenedor-traductor__esp(:class="{ mostrar: dg6}")
+              p A continuación, tendrá la oportunidad de practicar la lectura de textos y emparejarlos con una imagen que ejemplifique la narración. Tenga presente que en todos los casos deberá identificar el propósito del texto, el sustantivo de la oración, los adverbios utilizados para describir acciones y/o los adjetivos que califican el sustantivo, respectivamente. Si hay vocabulario desconocido, por favor consúltelo y asegúrese de aprendérselo a través del uso permanente del mismo.
+            a.boton-traduccion(@click='dg6 = !dg6' style='background-color: #fed947; color: #12263F') Ver traducción
     .row.justify-content-center.mb-3
       .col-lg-4
         .tarjeta.bg-hover.p-4.h-100
@@ -181,16 +198,19 @@
                 br
                 br
                 |Now, try to study these flashcards of the descriptive adjectives which can be useful to create descriptions while practicing definitions instead of meanings.
-              .d-flex.mb-5.justify-content-end
+              .d-flex.justify-content-end
                 Audio.color-secundario.mx-3(
                   :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
-                //TODO: traducir
-              .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                p 
-              a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+              .contenedor-traductor__esp(:class="{ mostrar: dg7}")
+                p Puede usar adjetivos para decir muchas cosas diferentes. Gracias a los adjetivos, puede decirle a alguien que tuvo un cumpleaños increíble o que comió una comida deliciosa. Puede usar adjetivos para hablar sobre sus emocionantes vacaciones, su película favorita o incluso su perrito. Los adjetivos vienen en muchas formas y tamaños diferentes, pero muchos de ellos tienen algo en común: se usan para describir personas, lugares y cosas. Existen muchos tipos de adjetivos, pero los adjetivos descriptivos son los que necesita cuando quiere describir algo. 
+                  br
+                  br
+                  |Ahora, intente estudiar estas tarjetas con los adjetivos descriptivos que pueden ser útiles para crear descripciones, mientras practica definiciones en lugar de significados:
+
+              a.boton-traduccion(@click='dg7 = !dg7' style='background-color: #fed947; color: #12263F') Ver traducción
       .tarjeta.bg-white.p-3
         SlyderF.mb-5.text-center(columnas="col-lg-6 col-xl-2")
           .tarjeta.card-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/14.jpg')})`}")
@@ -312,16 +332,15 @@
         .contenedor-traductor(style='background-color: #dddeff').mb-5
               .contenedor-traductor__eng
                 p.fst-italic Verb tenses are verb forms (visit, visited, will visit) which English speakers use to talk about the past, present, and future in their language. There are twelve verb tense forms in English. For English students, knowing how to use English tenses can be quite a challenge. Let’s get started!
-                .d-flex.mb-5.justify-content-end
+                .d-flex.justify-content-end
                   Audio.color-secundario.mx-3(
                     :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
-                  //TODO: traducir
-                .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                  p 
-                a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+                .contenedor-traductor__esp(:class="{ mostrar: dg8}")
+                  p Los tiempos verbales son formas verbales (visit, visited, will visit) que los hablantes de inglés usan para hablar sobre el pasado, el presente y el futuro, en su idioma. Hay doce formas de tiempo verbal en inglés. Para los estudiantes de inglés, saber cómo usar los tiempos verbales puede ser todo un desafío. ¡Empecemos!
+                a.boton-traduccion(@click='dg8 = !dg8' style='background-color: #fed947; color: #12263F') Ver traducción
     .margin-n.p-5.bg-t1.mb-5
       p Los tiempos verbales son formas verbales (visit, visited, will visit) que los hablantes de inglés usan para hablar sobre el pasado, el presente y el futuro, en su idioma.
       .tarjeta.bg-white.p-5
@@ -393,16 +412,15 @@
                 .contenedor-traductor(style='background-color: #dddeff').mb-5
                   .contenedor-traductor__eng
                     p.fst-italic The simple future refers to a time after the present and expresses facts or certainties. The future simple is used: to predict a future event, to express a spontaneous decision, to express will or willingness to do something. 
-                    .d-flex.mb-5.justify-content-end
+                    .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
                         :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
-                      //TODO: traducir
-                    .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                      p 
-                    a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+                    .contenedor-traductor__esp(:class="{ mostrar: dg9}")
+                      p El futuro simple se refiere a un tiempo posterior al presente y expresa hechos o certezas. El futuro simple se usa: para predecir un evento futuro, para expresar una decisión espontánea, para expresar disposición o voluntad de hacer algo.
+                    a.boton-traduccion(@click='dg9 = !dg9' style='background-color: #fed947; color: #12263F') Ver traducción
                 p.text-center.fst-italic Example: 
                 .row.justify-content-center.mb-3
                   .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/27.svg', alt='')
@@ -425,16 +443,15 @@
                 .contenedor-traductor(style='background-color: #dddeff').mb-5
                   .contenedor-traductor__eng
                     p.fst-italic As It has been said before, the past simple is a verb tense that expresses situations or actions that occurred in the past, and although they can be from the recent past or the distant past, their duration is not important; It should only be understood that these have already ended. Here are some examples to figure this out.
-                    .d-flex.mb-5.justify-content-end
+                    .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
                         :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
-                      //TODO: traducir
-                    .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                      p 
-                    a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+                    .contenedor-traductor__esp(:class="{ mostrar: dg10}")
+                      p Como lo hemos dicho antes, el pasado simple o past simple del inglés es un tiempo verbal que expresa situaciones o acciones que se dieron en el pasado, y aunque pueden ser del pasado reciente o del pasado lejano, su duración no es importante, solo se debe entender que estas ya finalizaron.
+                    a.boton-traduccion(@click='dg10 = !dg10' style='background-color: #fed947; color: #12263F') Ver traducción
                 p.text-center.fst-italic Example: 
                 .row.justify-content-center.mb-3
                   .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/30.svg', alt='')
@@ -456,16 +473,15 @@
         .contenedor-traductor(style='background-color: #dddeff').mb-5
           .contenedor-traductor__eng
             p.fst-italic To be able to put into practice the verb tenses (present, past, and future) studied before, please, read the following text and practice thinking the correct verb. 
-            .d-flex.mb-5.justify-content-end
+            .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
                 :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
-              //TODO: traducir
-            .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-              p 
-            a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+            .contenedor-traductor__esp(:class="{ mostrar: dg11}")
+              p Con el fin de poner en práctica los tiempos verbales (presente, pasado y futuro) estudiados antes, lea el siguiente texto y practique pensando el verbo correcto.
+            a.boton-traduccion(@click='dg11 = !dg11' style='background-color: #fed947; color: #12263F') Ver traducción
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/33.svg', alt='')
       .col-lg-9
@@ -482,18 +498,18 @@
         |  into a hot debate about whether it
         span.tool - - - - 
           .tool-up.text-center.text-white
-            p.mb-4
+            p.mb-4 be
         | appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, 
         span.tool - - - - 
           .tool-up.text-center.text-white
-            p.mb-4
+            p.mb-4 argue
         | that the hard work and years of education put into earning that PhD should give them full rights to expect to be addressed as ‘Dr’.
       .row.justify-content-center
         .col-lg-8 
           p.line This stark difference in opinion over something that could be conceived as minor and thus easily overlooked goes to show that we often attach meaning to even the most mundane practices. When things that we are used to are done differently, it could spark the strongest reactions in us. While many Continental Europeans and Latin Americans prefer to be addressed with a title, for example Mr. or Ms. and their surname when meeting someone in a business context for the first time, Americans, and increasingly the British, now tend to prefer using their first names. The best thing to do is to listen and  
             span.tool - - - - 
               .tool-up.text-center.text-white
-                p.mb-4 
+                p.mb-4 observe
             |how your conversation partner addresses you and, if you are still unsure, do not be afraid to ask them how they would like to be addressed.
         .col-lg-4.col-6: img(src='@/assets/curso/temas/tema1/34.svg', alt='')
     .row.justify-content-center.mb-5
@@ -504,14 +520,14 @@
         p.line.fst-italic A famous Russian proverb                               
           span.tool - - - - 
             .tool-up.text-center.text-white 
-              p.mb-4 
+              p.mb-4 state
           |that ‘a smile without reason is a sign of idiocy’ and a so-called ‘smile of respect’ is seen as insincere and often regarded with suspicion in Russia. Yet in countries like the United States, Australia and Britain, smiling is often interpreted as a sign of openness, friendship and respect, and is frequently used to break the ice.
           br
           br
           | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling 
           span.tool - - - - 
             .tool-up.text-center.text-white 
-              p.mb-4 
+              p.mb-4 be 
           |associated with dishonesty.
     .margin-n.p-5.bg-t3
       .row.justify-content-center.mb-5
@@ -521,22 +537,22 @@
           p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4
+                  p.mb-4 find
             | the direct eye contact awkward or even disrespectful. In parts of South America and Africa, prolonged eye contact could also be seen as challenging authority. In the Middle East, eye contact across genders is considered inappropriate, although eye contact within a gender could signify honesty and truthfulness.
             br
             br
             | Having an increased awareness of the possible differences in expectations and behaviour 
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4   
+                  p.mb-4   help
             | us avoid cases of miscommunication, but it
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4 
+                  p.mb-4  be
             | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4 
+                  p.mb-4 play
             |  a part in shaping the way we behave and think, we are also largely influenced by the region we come from, the communities we associate with, our age and gender, our corporate culture and our individual experiences of the world. The knowledge of the potential differences should therefore be something we keep at the back of our minds, rather than something that we use to pigeonhole the individuals of an entire nation.
         .col-lg-4.col-6: img(src='@/assets/curso/temas/tema1/36.svg', alt='')
       .row.justify-content-center.align-items-center.mb-5
@@ -587,16 +603,22 @@
                 br
                 br
                 |It should be noted that irregular verbs fulfill the same functions as regular verbs, that is, to express states or actions, and are located within the sentence in the same position as regular verbs.
-              .d-flex.mb-5.justify-content-end
+              .d-flex.justify-content-end
                 Audio.color-secundario.mx-3(
                   :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
-                //TODO: traducir
-              .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                p 
-              a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+              .contenedor-traductor__esp(:class="{ mostrar: dg12}")
+                p Los verbos irregulares en inglés son aquellos cuya conjugación no retoma la terminación -ed en sus formas de pretérito y pasado participio. Por esto, para conjugar este tipo de verbos, es necesario contemplar reglas y excepciones específicas.
+                  br
+                  br
+                  |La importancia de dominar los verbos irregulares es que existe una infinidad de ellos, desde los que son de uso diario, tal es el caso del verbo to be, como aquellos de usos especializados para distintas profesiones y labores.
+                  br
+                  br
+                  |Cabe subrayar que los verbos irregulares cumplen las mismas funciones que los verbos regulares, es decir, expresar estados o acciones, y se ubican dentro de la oración en la misma posición que los regulares.
+
+              a.boton-traduccion(@click='dg12 = !dg12' style='background-color: #fed947; color: #12263F') Ver traducción
           .row.justify-content-center.mb-3
             .col-lg-6
               .tabla1.mb-5
@@ -642,31 +664,38 @@
                       |#[b I ate potatoes for lunch.]
                       br
                       |#[b I felt silly.]
-                    .d-flex.mb-5.justify-content-end
+                    .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
                         :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
-                      //TODO: traducir
-                    .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                      p 
-                    a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+                    .contenedor-traductor__esp(:class="{ mostrar: dg13}")
+                      p Ahora, veamos los ejemplos:
+                        br
+                        |Hice la tarea ayer.
+                        br
+                        |Mi hermana bebió vino.
+                        br
+                        |Comí papas para el almuerzo.
+                        br
+                        |Me sentí tonto.
+
+                    a.boton-traduccion(@click='dg13 = !dg13' style='background-color: #fed947; color: #12263F') Ver traducción
       .row.justify-content-center.mb-5
         .col-lg-10
           .contenedor-traductor(style='background-color: #dddeff')
             .contenedor-traductor__eng
               p.fst-italic.mb-0 Now let´s use the tenses in simple sentences which are placed in the following cards; pay attention to the structure, for instance, if it is a simple sentence (subject and verb), or past simple sentences (subject and verb in past), or future tense (subject and will and verb):
-              .d-flex.mb-5.justify-content-end
+              .d-flex.justify-content-end
                 Audio.color-secundario.mx-3.mb-0(
                   :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
-                //TODO: traducir
-              .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                p 
-              a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+              .contenedor-traductor__esp(:class="{ mostrar: dg14}")
+                p Usemos los tiempos en oraciones simples que se colocan en las siguientes tarjetas; preste atención a la estructura, por ejemplo, si es una oración simple (sujeto y verbo), u oraciones en pasado simple (sujeto y verbo en pasado), o tiempo futuro (sujeto, will y verbo):
+              a.boton-traduccion(@click='dg14 = !dg14' style='background-color: #fed947; color: #12263F') Ver traducción
       .row.justify-content-center.mb-5
         .col-lg-10 
           div(style='background-color: #ffccd0; border-radius: 20px 20px 0px 0px').py-2.px-4
@@ -801,15 +830,14 @@
             .contenedor-traductor__eng
               .ms-5
                 p.fst-italic.mb-3.ms-5 To keep on working with the mixed sentences, listen to the song It’s Time by Imagine Dragons and identify the tenses, the sentence structure and the meaning of it taking into account the context. If you want to google it, it’s ok or just follow the link and identify the regular and irregular verbs:
-                a.anexo.d-inline-block.ms-5(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                a.anexo.d-inline-block.ms-5(href="https://www.youtube.com/watch?v=sENM2wA_FTg" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
                     p Enlace web.  Imagine Dragons - It’s Time
-                //TODO: traducir
-              .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-                p 
-              a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+              .contenedor-traductor__esp(:class="{ mostrar: dg15}")
+                p Para seguir trabajando con las oraciones mixtas, escuche la canción It's Time de Imagine Dragons e identifique los tiempos, la estructura de la oración y el significado de esta teniendo en cuenta el contexto. Si quiere buscarla en Google, está bien, o simplemente siga el enlace:
+              a.boton-traduccion(@click='dg15 = !dg15' style='background-color: #fed947; color: #12263F') Ver traducción
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.col-4: img(src='@/assets/curso/temas/tema1/46.svg', alt='')
         .col-4
@@ -897,16 +925,39 @@
               br
               br
               |Remember that, although it provides a global image, it reduces reading comprehension, so it is not useful for an in-depth study. Of course, it serves to analyze contexts and review.
-            .d-flex.mb-5.justify-content-end
+            .d-flex.justify-content-end
               Audio.color-secundario.mx-3.mb-0(
                 :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
-              //TODO: traducir
-            .contenedor-traductor__esp(:class="{ mostrar: dg1}")
-              p 
-            a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
+            .contenedor-traductor__esp(:class="{ mostrar: dg16}")
+              p Hay varias estrategias de comprensión que usamos todos los días y, al usarlas, podemos convertirnos en expertos en ese campo. De todos modos, es una gran idea saber cómo promover la comprensión lectora en caso de no tener esa habilidad.
+                br
+                br
+                |¿Qué es la técnica skimming?
+                br
+                br
+                | Puede usar adjetivos para decir muchas cosas diferentes. Gracias a los adjetivos, puede decirle a alguien que tuvo un cumpleaños increíble o que comió una comida deliciosa. Puede usar adjetivos para hablar sobre sus emocionantes vacaciones, su película favorita o incluso su perrito. Los adjetivos vienen en muchas formas y tamaños diferentes, pero muchos de ellos tienen algo en común: se usan para describir personas, lugares y cosas. Existen muchos tipos de adjetivos, pero los adjetivos descriptivos son los que necesita cuando quiere describir algo. 
+                br
+                br
+                |Ahora, intente estudiar estas tarjetas con los adjetivos descriptivos que pueden ser útiles para crear descripciones, mientras practica definiciones en lugar de significados:
+                br
+                br
+                |Este método de estudio se utiliza para extraer las ideas más importantes de un texto. Ahora bien, para ello, iremos directamente a los primeros y últimos párrafos, igual que a los títulos, subtítulos y epígrafes de cada apartado, analizando la estructura del contenido a desarrollar.
+                br
+                br
+                |Es decir, hemos de obtener, de forma rápida, una idea general de los conceptos, las fechas y los datos. Para ello, sin profundizar en el mensaje, los identificaremos a lo largo del texto de forma dinámica.
+                br
+                br
+                |Con el método skimming, la velocidad lectora aumenta hasta cuatro veces. Eso sí, para manejarlo con soltura, se requiere mucha práctica.
+                br
+                br
+                |Recuerde que, aunque facilita una imagen global, reduce la comprensión lectora, por lo que no sirve para un estudio en profundidad. Eso sí, sirve para analizar contextos y repasar.
+
+
+
+            a.boton-traduccion(@click='dg16 = !dg16' style='background-color: #fed947; color: #12263F') Ver traducción
       .col-lg-4.col-6(data-aos="fade-left")
         h5.fst-italic Extract the ideas from text
         img(src='@/assets/curso/temas/tema1/47.svg', alt='').mb-4
@@ -929,6 +980,21 @@ export default {
   data: () => ({
     modal1: false,
     dg1: true,
+    dg2: true,
+    dg3: true,
+    dg4: true,
+    dg5: true,
+    dg6: true,
+    dg7: true,
+    dg8: true,
+    dg9: true,
+    dg10: true,
+    dg11: true,
+    dg12: true,
+    dg13: true,
+    dg14: true,
+    dg15: true,
+    dg16: true,
   }),
   mounted() {
     this.$nextTick(() => {
