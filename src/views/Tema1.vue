@@ -522,9 +522,7 @@
       h4.mb-4 
         span.fw-bold.r--2 Addressing someone.
       p.line When discussing this topic in a training course, a German trainee and a British trainee
-        span.tool - - - - 
-          .tool-up.text-center.text-white 
-            p.mb-4 get
+        SpanToolTip(texto="get") - - - -
         |  into a hot debate about whether it
         span.tool - - - - 
           .tool-up.text-center.text-white
@@ -1004,9 +1002,10 @@
 </template>
 
 <script>
+import SpanToolTip from '../components/spanToolTip'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { SpanToolTip },
   data: () => ({
     modal1: false,
     dg1: true,
