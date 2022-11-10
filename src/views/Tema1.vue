@@ -75,6 +75,8 @@
                           br
                           |Los textos expositivos, o textos informativos, son textos de no ficción que brindan hechos e información sobre un tema. Estos textos académicos son comunes en materias como ciencias, historia y ciencias sociales. Hay numerosos ejemplos de textos expositivos, que incluyen libros de texto para escolares, recetas, contenidos de actualidad y folletos sobre monumentos y lugares.
                     a.boton-traduccion(@click='dg4 = !dg4' style='background-color: #fed947; color: #12263F') Ver traducción
+                .row.justify-content-center.mb-5
+                  .col-lg-6: img(src='@/assets/curso/temas/tema1/4.svg', alt='')
               .row.justify-content-center.mb-5
                 .col-lg-7.mblg-0.mb-3
                   .contenedor-traductor(style='background-color: #dddeff').mb-5
@@ -98,8 +100,7 @@
 
                       a.boton-traduccion(@click='dg3 = !dg3' style='background-color: #fed947; color: #12263F') Ver traducción
                 .col-lg-5.col-6: img(src='@/assets/curso/temas/tema1/3.svg', alt='')
-                .row.justify-content-center.mb-5
-                  .col-lg-6: img(src='@/assets/curso/temas/tema1/4.svg', alt='')
+                
         .col-lg-3.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/5.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/6.png', alt='')
@@ -220,7 +221,7 @@
             )
     .margin-n.p-5.mb-5.bg-t2
       .row.justify-content-center.mb-5
-        .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right")
+        .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/13.svg', alt='')
         .col-lg-8(data-aos="fade-left")
           .contenedor-traductor(style='background-color: #dddeff').mb-5
             .contenedor-traductor__eng
@@ -251,7 +252,7 @@
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
               p.text-center 
-                span.r--2.fw-bold.fst-italic aloof / The opposite to friendly
+                span.r--2.fw-bold.fst-italic Aloof / The opposite to friendly
                 br
                 | 
           .tarjeta.card-bg.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/15.jpg')})`}")
@@ -433,7 +434,7 @@
                   .col-lg-9
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She eats lunch at 12:00 every Monday."
-                      :audio="require('@/assets/curso/temas/audios/tema1/25.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/26.mp3')"
                     )
                     p.ms-3(style='color: #777777 ') Ella almuerza todos los lunes a las 12:00.
           div 
@@ -444,7 +445,7 @@
                     p.fst-italic The simple future refers to a time after the present and expresses facts or certainties. The future simple is used: to predict a future event, to express a spontaneous decision, to express will or willingness to do something. 
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/26.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/tema1/29.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -457,14 +458,14 @@
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She <span class= r--1>will go</span> to the hospital."
-                      :audio="require('@/assets/curso/temas/audios/tema1/27.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/30.mp3')"
                     )
                 .row.justify-content-center.mb-5
                   .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/28.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
-                      texto="She <span class= r--1>will not</span> sleep well. "
-                      :audio="require('@/assets/curso/temas/audios/tema1/28.mp3')"
+                      texto="She <span class= r--1>will not</span> sleep. "
+                      :audio="require('@/assets/curso/temas/audios/tema1/30-1.mp3')"
                     )
               .col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/29.png', alt='')    
           div 
@@ -475,7 +476,7 @@
                     p.fst-italic As It has been said before, the past simple is a verb tense that expresses situations or actions that occurred in the past, and although they can be from the recent past or the distant past, their duration is not important; It should only be understood that these have already ended. Here are some examples to figure this out.
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/29.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/tema1/27.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -488,14 +489,14 @@
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She had an exam. "
-                      :audio="require('@/assets/curso/temas/audios/tema1/30.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/28.mp3')"
                     )
                 .row.justify-content-center.mb-5
                   .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/31.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-secundario.mb-3(
                       texto="They were worried."
-                      :audio="require('@/assets/curso/temas/audios/tema1/31.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/28-1.mp3')"
                     )
               .col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/32.png', alt='')  
     .row.justify-content-center.mb-5
@@ -505,7 +506,7 @@
             p.fst-italic To be able to put into practice the verb tenses (present, past, and future) studied before, please, read the following text and practice thinking the correct verb. 
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/32.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema1/31.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -633,7 +634,7 @@
                 |It should be noted that irregular verbs fulfill the same functions as regular verbs, that is, to express states or actions, and are located within the sentence in the same position as regular verbs.
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3(
-                  :audio="require('@/assets/curso/temas/audios/tema1/33.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/tema1/32.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -714,10 +715,10 @@
         .col-lg-10
           .contenedor-traductor(style='background-color: #dddeff')
             .contenedor-traductor__eng
-              p.fst-italic.mb-0 Now let´s use the tenses in simple sentences which are placed in the following cards; pay attention to the structure, for instance, if it is a simple sentence (subject and verb), or past simple sentences (subject and verb in past), or future tense (subject and will and verb):
+              p.fst-italic.mb-0 Now let's use the tenses in simple sentences which are placed in the following cards; pay attention to the structure, for instance, if it is a simple sentence (subject and verb), or past simple sentences (subject and verb in past), or future tense (subject and will and verb):
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3.mb-0(
-                  :audio="require('@/assets/curso/temas/audios/tema1/35.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/tema1/34.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -732,7 +733,7 @@
                 .tarjeta(style='background-color: #ffdfe0;').py-2.px-4
                   .d-flex.justify-content-center
                     Audio.color-secundario.mx-3.mb-2(
-                      :audio="require('@/assets/curso/temas/audios/tema1/36.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/35.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
@@ -763,7 +764,7 @@
                 .tarjeta(style='background-color: #fff0f1;').py-2.px-4
                   .d-flex.justify-content-center
                     Audio.color-secundario.mx-3.mb-2(
-                      :audio="require('@/assets/curso/temas/audios/tema1/37.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/36.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
@@ -790,7 +791,7 @@
                 .tarjeta(style='background-color: #ff9fa3;').py-2.px-4
                   .d-flex.justify-content-center
                     Audio.color-secundario.mx-3.mb-2(
-                      :audio="require('@/assets/curso/temas/audios/tema1/38.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/37.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
@@ -820,7 +821,7 @@
                 .tarjeta(style='background-color: #ffbfc1;').py-2.px-4
                   .d-flex.mb-5.justify-content-center
                     Audio.color-secundario.mx-3.mb-0(
-                      :audio="require('@/assets/curso/temas/audios/tema1/39.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema1/38.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 

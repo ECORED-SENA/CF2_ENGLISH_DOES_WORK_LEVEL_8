@@ -12,7 +12,7 @@
         .col-lg-8(data-aos="fade-left") 
           .contenedor-traductor(style='background-color: #dddeff')
               .contenedor-traductor__eng
-                p.fst-italic.mb-0 Having a job makes part of the adult´s world as some people calls it. In some countries, we can start working before 18 years old; in some others, after 21 years old. Some people were born in a family that runs a business and some others just work in farms growing fruits and vegetables or taking care of the animals. In Colombia, the salaries are not enough, in some cases, to run a family, so more than one member must join the labour world.
+                p.fst-italic.mb-0 Having a job makes part of the adult's world as some people calls it. In some countries, we can start working before 18 years old; in some others, after 21 years old. Some people were born in a family that runs a business and some others just work in farms growing fruits and vegetables or taking care of the animals. In Colombia, the salaries are not enough, in some cases, to run a family, so more than one member must join the labour world.
                   br
                   br
                   |After knowing how important having a job is, you are invited, as a learner, to see this video class and learn the vocabulary needed when talking about a job. 
@@ -27,7 +27,7 @@
                 a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/76EKR8lFuLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.1   #[em Interviews] (Entrevistas)
       .row.justify-content-center.mb-5
@@ -40,7 +40,7 @@
                   |Now, listen to the following interview and try to answer what is asked: 
                 .d-flex.justify-content-end
                   Audio.color-secundario.mx-3.mb-0(
-                    :audio="require('@/assets/curso/temas/audios/tema3/2.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema3/3.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
@@ -63,17 +63,17 @@
                       .col-lg-7
                         TarjetaAudio.bg-white.color-secundario.mb-2(
                           texto="Q: Why do you want to study in the US?"
-                          :audio="require('@/assets/curso/temas/audios/tema3/3.mp3')"
-                        ) 
-                        p.ms-3.mb-1.fst-italic.fw-bold A: You
-                        TarjetaAudio.bg-white.color-secundario.mb-2(
-                          texto="Q: How much do you think your stay in the US will cost you?"
                           :audio="require('@/assets/curso/temas/audios/tema3/4.mp3')"
                         ) 
                         p.ms-3.mb-1.fst-italic.fw-bold A: You
                         TarjetaAudio.bg-white.color-secundario.mb-2(
-                          texto="Q: Do you have any intention of remaining in the US?"
+                          texto="Q: How much do you think your stay in the US will cost you?"
                           :audio="require('@/assets/curso/temas/audios/tema3/5.mp3')"
+                        ) 
+                        p.ms-3.mb-1.fst-italic.fw-bold A: You
+                        TarjetaAudio.bg-white.color-secundario.mb-2(
+                          texto="Q: Do you have any intention of remaining in the US?"
+                          :audio="require('@/assets/curso/temas/audios/tema3/6.mp3')"
                         ) 
                         p.ms-3.mb-1.fst-italic.fw-bold  A: You
                       .col-lg-4
@@ -162,27 +162,27 @@ export default {
           textoIng:
             'Hi, Mark. Thanks for coming today. I’m Linda Smith. Nice to meet you.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema3/6.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/8.mp3'),
         },
         {
           personaje: 'Candidate',
           textoIng: 'Hello. I’m Mark Turner. Nice to *** you, too.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema3/7.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/9.mp3'),
           palabra: 'meet',
         },
         {
           personaje: 'Personal manager',
           textoIng: 'Have you *** the information about this job?',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema3/8.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/10.mp3'),
           palabra: 'read  ',
         },
         {
           personaje: 'Candidate',
           textoIng: 'Yes, it *** very interesting.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema3/9.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema3/11.mp3'),
           palabra: 'sounds',
         },
       ],

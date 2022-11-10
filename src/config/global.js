@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'I was wondering if <br> <span class= r--4>Me preguntaba si…</span> ',
+      '<em> I was wondering if</em> <br> <span class= r--4>Me preguntaba si…</span> ',
     descripcionCurso:
-      'Este componente va a ser la introducción al estudio de diferentes tipos de textos, se combinarán los tiempos verbales y se revisarán algunas lecturas cuyo tema principal es el empleo y la vida social. Se trabajará con características y diferencias de tipos de textos (descriptivo, expositivo y periodístico), técnicas de comprensión lectora (scanning y skimming), y comunicaciones escritas (e-mails y documents). Se estudiarán los marcadores de discurso y algo relacionado con preguntas formales.',
+      'Este componente va a ser la introducción al estudio de diferentes tipos de textos, se combinarán los tiempos verbales y se revisarán algunas lecturas cuyo tema principal es el empleo y la vida social. Se trabajará con características y diferencias de tipos de textos (descriptivo, expositivo y periodístico), técnicas de comprensión lectora (<em> scanning</em> y <em>skimming</em>), y comunicaciones escritas (<em>e-mails</em> y <em>documents</em>). Se estudiarán los marcadores de discurso y algo relacionado con preguntas formales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -323,8 +323,37 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios  - Regional Tolima',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba ',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -335,7 +364,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
