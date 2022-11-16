@@ -18,9 +18,9 @@
                 p Con el fin de realizar una buena comprensión de lectura, es indispensable conocer los tipos de textos y la gramática que cada uno contiene; para esta tarea, será importante conocer los conectores, algo de vocabulario y, por supuesto, las preguntas formales e informales. Lo invitamos a que realice un recorrido detenido por este componente y a que tome atenta nota de aquello que no le es familiar.
               a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
         .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/intro/1.png', alt='')
-      .contenedor-corazon
+      
         figure
-          .video
+          .video.contenedor-corazon
             iframe(width="560" height="315" src="https://www.youtube.com/embed/O4QXG_MsZQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>

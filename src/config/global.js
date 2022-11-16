@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      '<em> I was wondering if</em> <br> <span class= r--4>Me preguntaba si…</span> ',
+      '<em> I was wondering if...</em> <br> <span class= r--4>Me preguntaba si…</span> ',
     descripcionCurso:
       'Este componente va a ser la introducción al estudio de diferentes tipos de textos, se combinarán los tiempos verbales y se revisarán algunas lecturas cuyo tema principal es el empleo y la vida social. Se trabajará con características y diferencias de tipos de textos (descriptivo, expositivo y periodístico), técnicas de comprensión lectora (<em> scanning</em> y <em>skimming</em>), y comunicaciones escritas (<em>e-mails</em> y <em>documents</em>). Se estudiarán los marcadores de discurso y algo relacionado con preguntas formales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

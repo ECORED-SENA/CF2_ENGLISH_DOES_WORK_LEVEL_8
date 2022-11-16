@@ -523,15 +523,15 @@
       h4.mb-4 
         span.fw-bold.r--2 Addressing someone.
       p.line When discussing this topic in a training course, a German trainee and a British trainee
-        SpanToolTip(texto="get") - - - -
+        SpanToolTip(texto="got") - - - -
         |  into a hot debate about whether it
         span.tool - - - - 
           .tool-up.text-center.text-white
-            p.mb-4 be
+            p.mb-4 was
         | appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, 
         span.tool - - - - 
           .tool-up.text-center.text-white
-            p.mb-4 argue
+            p.mb-4 argued
         | that the hard work and years of education put into earning that PhD should give them full rights to expect to be addressed as ‘Dr’.
       .row.justify-content-center
         .col-lg-8 
@@ -549,14 +549,14 @@
         p.line.fst-italic A famous Russian proverb                               
           span.tool - - - - 
             .tool-up.text-center.text-white 
-              p.mb-4 state
+              p.mb-4 states
           |that ‘a smile without reason is a sign of idiocy’ and a so-called ‘smile of respect’ is seen as insincere and often regarded with suspicion in Russia. Yet in countries like the United States, Australia and Britain, smiling is often interpreted as a sign of openness, friendship and respect, and is frequently used to break the ice.
           br
           br
           | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling 
           span.tool - - - - 
             .tool-up.text-center.text-white 
-              p.mb-4 be 
+              p.mb-4 will be
           |associated with dishonesty.
     .margin-n.p-5.bg-t3
       .row.justify-content-center.mb-5
@@ -566,22 +566,22 @@
           p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4 find
+                  p.mb-4 found
             | the direct eye contact awkward or even disrespectful. In parts of South America and Africa, prolonged eye contact could also be seen as challenging authority. In the Middle East, eye contact across genders is considered inappropriate, although eye contact within a gender could signify honesty and truthfulness.
             br
             br
             | Having an increased awareness of the possible differences in expectations and behaviour 
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4   help
+                  p.mb-4  will help
             | us avoid cases of miscommunication, but it
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4  be
+                  p.mb-4  will be
             | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures
             span.tool - - - - 
                 .tool-up.text-center.text-white
-                  p.mb-4 play
+                  p.mb-4 will play
             |  a part in shaping the way we behave and think, we are also largely influenced by the region we come from, the communities we associate with, our age and gender, our corporate culture and our individual experiences of the world. The knowledge of the potential differences should therefore be something we keep at the back of our minds, rather than something that we use to pigeonhole the individuals of an entire nation.
         .col-lg-4.col-6: img(src='@/assets/curso/temas/tema1/36.svg', alt='')
       .row.justify-content-center.align-items-center.mb-5
@@ -683,7 +683,7 @@
               .col-lg-4
                 .contenedor-traductor(style='background-color: #dddeff')
                   .contenedor-traductor__eng
-                    p.fst-italic Now, let´s see the examples:
+                    p.fst-italic Now, let's see the examples:
                       br
                       br
                       |#[b I did homework yesterday.]
@@ -795,7 +795,7 @@
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
-                    p Use to express habits or routines in present perfect.
+                    p Use: to express habits or routines in present perfect.
 
                       br
                       br
@@ -825,7 +825,7 @@
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                   .text-center.fst-italic 
-                    p Use for future simple.
+                    p Use: for future simple.
                       br
                       br
                       |Example:
