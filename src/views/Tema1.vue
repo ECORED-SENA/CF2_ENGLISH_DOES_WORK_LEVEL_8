@@ -65,7 +65,7 @@
                       |Expository texts, or informational texts, are non-fiction texts that give facts and information about a topic. These academic texts are common in subjects such as science, history, and social sciences. There are numerous examples of expository texts, that include textbooks for school children, recipes, content on current affairs, and pamphlets on monuments and places.  
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/3.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/c/H4.wav')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -87,7 +87,7 @@
                         |Journalistic writing is a form of non-fiction writing used to report news and factual events. It can be newspaper articles, television reports, radio scripts, and on news websites. As it is written to inform, journalistic writing usually consists of short sentences and paragraphs that get to the point of the article quickly.
                       .d-flex.justify-content-end
                         Audio.color-secundario.mx-3(
-                          :audio="require('@/assets/curso/temas/audios/tema1/4.mp3')"
+                          :audio="require('@/assets/curso/temas/audios/c/H5.wav')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
 
@@ -121,7 +121,7 @@
               |5. Think before writing, create a map of ideas.
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/5.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H6.wav')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -144,7 +144,7 @@
             p.fst-italic Now, you will have the opportunity to practice reading texts and match them with an image that exemplifies the narration. Keep in mind that in all cases you must identify the purpose of the text, the noun of the sentence, the adverbs used to describe actions, and/or the adjectives that describe the noun, respectively. If there is unknown vocabulary, please write it and make sure you learn it through permanent use.
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/6.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H7.wav')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -182,7 +182,7 @@
             p The painting was a field of flowers, with deep and rich blues and yellows atop vibrant green stems that seemed to beckon you to reach right in and pick them.
           .d-flex.justify-content-center
             Audio.color-secundario.mx-3(
-              :audio="require('@/assets/curso/temas/audios/tema1/9.mp3')"
+              :audio="require('@/assets/curso/temas/audios/c/H8.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
     .row.justify-content-center.mb-5
@@ -194,7 +194,7 @@
             p The old man was stooped and bent, his back making the shape of a C and his head bent so far forward that his beard would nearly have touched his knobby knees had he been just a bit taller.
           .d-flex.justify-content-center
             Audio.color-secundario.mx-3(
-              :audio="require('@/assets/curso/temas/audios/tema1/10.mp3')"
+              :audio="require('@/assets/curso/temas/audios/c/H9.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
       .col-lg-4
@@ -216,7 +216,7 @@
             p The soft fur of the dog felt like silk against my skin and her black coloring glistened as it absorbed the sunlight, reflecting it back as a perfect, deep, dark mirror.
           .d-flex.justify-content-center
             Audio.color-secundario.mx-3(
-              :audio="require('@/assets/curso/temas/audios/tema1/12.mp3')"
+              :audio="require('@/assets/curso/temas/audios/c/H10.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
     .margin-n.p-5.mb-5.bg-t2
@@ -225,13 +225,13 @@
         .col-lg-8(data-aos="fade-left")
           .contenedor-traductor(style='background-color: #dddeff').mb-5
             .contenedor-traductor__eng
-              p.fst-italic You can use adjectives to say a lot of different things. Thanks to adjectives, you can tell someone that you had an amazing birthday or that you ate a delicious meal. You can use adjectives to talk about your exciting vacation, your favorite movie, or even your little dog. Adjectives come in many different shapes and sizes, but many of them have something in common: they are used to describe people, places, and things. There are many types of adjectives, but descriptive adjectives are the ones you need when you want to describe something. 
+              p.fst-italic You can use adjectives to say a lot of different things. Thanks to adjectives, you can tell someone that you had an amazing birthday or that you ate a delicious meal. You can use adjectives to talk about your exciting vacation, your favorite movie, or even your little dog. Adjectives come in many different shapes and sizes, but many of them have something in common: skypeused to describe people, places, and things. There are many types of adjectives, but descriptive adjectives are the ones you need when you want to describe something. 
                 br
                 br
                 |Now, try to study these flashcards of the descriptive adjectives which can be useful to create descriptions while practicing definitions instead of meanings.
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3(
-                  :audio="require('@/assets/curso/temas/audios/tema1/13.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/c/H11.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -365,7 +365,7 @@
                 p.fst-italic Verb tenses are verb forms (visit, visited, will visit) which English speakers use to talk about the past, present, and future in their language. There are twelve verb tense forms in English. For English students, knowing how to use English tenses can be quite a challenge. Let’s get started!
                 .d-flex.justify-content-end
                   Audio.color-secundario.mx-3(
-                    :audio="require('@/assets/curso/temas/audios/tema1/24.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/c/H13.wav')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
@@ -434,7 +434,7 @@
                   .col-lg-9
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She eats lunch at 12:00 every Monday."
-                      :audio="require('@/assets/curso/temas/audios/tema1/26.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/c/H14.wav')"
                     )
                     p.ms-3(style='color: #777777 ') Ella almuerza todos los lunes a las 12:00.
           div 
@@ -476,7 +476,7 @@
                     p.fst-italic As It has been said before, the past simple is a verb tense that expresses situations or actions that occurred in the past, and although they can be from the recent past or the distant past, their duration is not important; It should only be understood that these have already ended. Here are some examples to figure this out.
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/27.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/c/H17.wav')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -506,7 +506,7 @@
             p.fst-italic To be able to put into practice the verb tenses (present, past, and future) studied before, please, read the following text and practice thinking the correct verb. 
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/31.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -523,20 +523,20 @@
       h4.mb-4 
         span.fw-bold.r--2 Addressing someone.
       p.line When discussing this topic in a training course, a German trainee and a British trainee
-        SpanToolTip(texto="got") - - - -
+        SpanToolTip(texto="got")  (get) - - - -
         |  into a hot debate about whether it
-        span.tool - - - - 
+        span.tool (is) - - - - 
           .tool-up.text-center.text-white
             p.mb-4 was
         | appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, 
-        span.tool - - - - 
+        span.tool (argued) - - - - 
           .tool-up.text-center.text-white
             p.mb-4 argued
         | that the hard work and years of education put into earning that PhD should give them full rights to expect to be addressed as ‘Dr’.
       .row.justify-content-center
         .col-lg-8 
           p.line This stark difference in opinion over something that could be conceived as minor and thus easily overlooked goes to show that we often attach meaning to even the most mundane practices. When things that we are used to are done differently, it could spark the strongest reactions in us. While many Continental Europeans and Latin Americans prefer to be addressed with a title, for example Mr. or Ms. and their surname when meeting someone in a business context for the first time, Americans, and increasingly the British, now tend to prefer using their first names. The best thing to do is to listen and  
-            span.tool - - - - 
+            span.tool  (observe) - - - - 
               .tool-up.text-center.text-white
                 p.mb-4 observe
             |how your conversation partner addresses you and, if you are still unsure, do not be afraid to ask them how they would like to be addressed.
@@ -547,7 +547,7 @@
         h4.mb-4.fst-italic 
           span.fw-bold.r--2 Smiling
         p.line.fst-italic A famous Russian proverb                               
-          span.tool - - - - 
+          span.tool (state- - - - 
             .tool-up.text-center.text-white 
               p.mb-4 states
           |that ‘a smile without reason is a sign of idiocy’ and a so-called ‘smile of respect’ is seen as insincere and often regarded with suspicion in Russia. Yet in countries like the United States, Australia and Britain, smiling is often interpreted as a sign of openness, friendship and respect, and is frequently used to break the ice.
@@ -634,7 +634,7 @@
                 |It should be noted that irregular verbs fulfill the same functions as regular verbs, that is, to express states or actions, and are located within the sentence in the same position as regular verbs.
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3(
-                  :audio="require('@/assets/curso/temas/audios/tema1/32.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/c/H21.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -956,7 +956,7 @@
               |Remember that, although it provides a global image, it reduces reading comprehension, so it is not useful for an in-depth study. Of course, it serves to analyze contexts and review.
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3.mb-0(
-                :audio="require('@/assets/curso/temas/audios/tema1/40.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H25.wav')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 

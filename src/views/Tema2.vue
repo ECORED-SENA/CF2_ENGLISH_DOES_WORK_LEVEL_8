@@ -18,7 +18,7 @@
                 |Here you will not only know the various kinds of sentence connectors, but will also get simple linker examples that will help you in understanding the meaning of connectors. So, let´s begin:
               .d-flex.justify-content-end
                 Audio.color-secundario.mx-3.mb-0(
-                  :audio="require('@/assets/curso/temas/audios/tema2/1.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/c/H27.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -37,7 +37,7 @@
               h4 Time
               TarjetaAudio.bg-white.color-secundario.mb-3(
                 texto="<span class=r--1>I get up at 9:00.</span> <span class= r--3>Then</span>, I get dressed. <span class= r--3>After</span>  that, I have breakfast. Next, I go to work. "
-                :audio="require('@/assets/curso/temas/audios/tema2/c1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H28.wav')"
               )
               .flex-wrap.d-flex.align-ites-center.justify-content-center
                 div(style="background-color: #ff9fa3 ; border-radius: 5px ").mx-2.p-2.px-4.mb-3
@@ -62,7 +62,7 @@
               h4 Addition
               TarjetaAudio.bg-white.color-secundario.mb-3(
                 texto="<span class= r--1>My sister Mary</span> is 20 <span class= r--3>and</span> my sister Jane is 25. <br><br>I like flying very much. My brother Jake likes flying, <span class= r--3>too</span>. So does my brother Jake."
-                :audio="require('@/assets/curso/temas/audios/tema2/c2.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H29.wav')"
               )
               .flex-wrap.d-flex.align-ites-center.justify-content-center
                 div(style="background-color: #ff9fa3 ; border-radius: 5px ").mx-2.p-2.px-4.mb-3
@@ -113,7 +113,7 @@
               h4 Order of elements
               TarjetaAudio.bg-white.color-secundario.mb-3(
                 texto="<span class= r--1>I think they</span> have been very unfair to her. <br><span class= r--3>Firstly</span>, because I consider her the best typist in the world. <br><br><span class= r--3>Secondly, because she has worked very hard to get the job.</span> "
-                :audio="require('@/assets/curso/temas/audios/tema2/c4.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H30.wav')"
               )
               .flex-wrap.d-flex.align-ites-center.justify-content-center
                 div(style="background-color: #ff9fa3 ; border-radius: 5px ").mx-2.p-2.px-4.mb-3
@@ -188,7 +188,7 @@
               h4 Consequence
               TarjetaAudio.bg-white.color-secundario.mb-3(
                 texto="<span class= r--1>I enjoy going</span> shopping when I finish work, and in this area there are hardly any shops, <span class= r--3>so</span> I have bought a flat in the centre of town."
-                :audio="require('@/assets/curso/temas/audios/tema2/c7.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H31.wav')"
               )
               .flex-wrap.d-flex.align-ites-center.justify-content-center
                 div(style="background-color: #ff9fa3 ; border-radius: 5px ").mx-2.p-2.px-4.mb-3
@@ -213,7 +213,7 @@
               .d-flex.justify-content-end
                 p.fst-italic.mb-0 After knowing what the linkers are and having quoted examples, let’s listen to the conversation and see the use of some of them:
                 Audio.color-secundario.mx-3.mb-0(
-                  :audio="require('@/assets/curso/temas/audios/tema2/2.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/c/H32.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
 
@@ -238,8 +238,8 @@ export default {
           img: require('@/assets/curso/temas/tema2/diana.svg'),
         },
         {
-          nombre: 'Orlando',
-          img: require('@/assets/curso/temas/tema2/orlando.svg'),
+          nombre: 'Carla',
+          img: require('@/assets/curso/temas/tema2/carla.svg'),
         },
       ],
       dialogo: [
@@ -247,27 +247,27 @@ export default {
           personaje: 'Diana',
           textoIng: 'I cannot believe we are going to Colombia!',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema2/3.mp3'),
+          audio: require('@/assets/curso/temas/audios/c/H34.wav'),
         },
         {
-          personaje: 'Orlando',
+          personaje: 'Carla',
           textoIng: 'That´s *** we must pick him up.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema2/4.mp3'),
+          audio: require('@/assets/curso/temas/audios/c/H33.wav'),
           palabra: 'because',
         },
         {
           personaje: 'Diana',
           textoIng: 'We must *** pick him up, but also see our families.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema2/5.mp3'),
+          audio: require('@/assets/curso/temas/audios/c/H34B.wav'),
           palabra: 'not only ',
         },
         {
-          personaje: 'Orlando',
+          personaje: 'Carla',
           textoIng: '*** , Martin does not want to go with us.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema2/6.mp3'),
+          audio: require('@/assets/curso/temas/audios/c/H35.wav'),
           palabra: 'On the other hand',
         },
       ],

@@ -18,7 +18,7 @@
                   |After knowing how important having a job is, you are invited, as a learner, to see this video class and learn the vocabulary needed when talking about a job. 
                 .d-flex.justify-content-end
                   Audio.color-secundario.mx-3.mb-0(
-                    :audio="require('@/assets/curso/temas/audios/tema3/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/c/H36.wav')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
@@ -40,7 +40,7 @@
                   |Now, listen to the following interview and try to answer what is asked: 
                 .d-flex.justify-content-end
                   Audio.color-secundario.mx-3.mb-0(
-                    :audio="require('@/assets/curso/temas/audios/tema3/3.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/c/H40.wav')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
 
@@ -68,7 +68,7 @@
                         p.ms-3.mb-1.fst-italic.fw-bold A: You
                         TarjetaAudio.bg-white.color-secundario.mb-2(
                           texto="Q: How much do you think your stay in the US will cost you?"
-                          :audio="require('@/assets/curso/temas/audios/tema3/5.mp3')"
+                          :audio="require('@/assets/curso/temas/audios/c/H41.wav')"
                         ) 
                         p.ms-3.mb-1.fst-italic.fw-bold A: You
                         TarjetaAudio.bg-white.color-secundario.mb-2(
