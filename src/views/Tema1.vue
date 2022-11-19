@@ -525,17 +525,12 @@
       h4.mb-4 
         span.fw-bold.r--2 Addressing someone.
       p.line When discussing this topic in a training course, a German trainee and a British trainee (get)
-        SpanToolTip(texto="got")    - - - -
-        |  into a hot debate about whether it (is)
-        span.tool  - - - - 
-
-      p.line When discussing this topic in a training course, a German trainee and a British trainee (get)
         SpanToolTip(texto="got")   - - - -
         |  into a hot debate about whether it (is)
         span.tool  - - - - 
           .tool-up.text-center.text-white
             p.mb-4 was
-        | appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, (argued) 
+        | appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, (argue) 
         span.tool  - - - - 
           .tool-up.text-center.text-white
             p.mb-4 argued
@@ -553,8 +548,6 @@
       .col-lg-9(data-aos="fade-left")
         h4.mb-4.fst-italic 
           span.fw-bold.r--2 Smiling
-        p.line.fst-italic A famous Russian proverb                               
-          span.tool (state) - - - - 
         p.line.fst-italic A famous Russian proverb (state)                             
           span.tool - - - - 
             .tool-up.text-center.text-white 
@@ -562,8 +555,8 @@
           |that ‘a smile without reason is a sign of idiocy’ and a so-called ‘smile of respect’ is seen as insincere and often regarded with suspicion in Russia. Yet in countries like the United States, Australia and Britain, smiling is often interpreted as a sign of openness, friendship and respect, and is frequently used to break the ice.
           br
           br
-          | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling 
-          span.tool (be) - - - - 
+          | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling (be)
+          span.tool  - - - - 
           | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling (be)
           span.tool - - - - 
             .tool-up.text-center.text-white 
@@ -574,8 +567,6 @@
         .col-lg-8
           h4.mb-4.fst-italic 
             span.fw-bold.r--2 Smiling
-          p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they (find)
-            span.tool  - - - - 
           p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they (find)
             span.tool - - - - 
                 .tool-up.text-center.text-white
