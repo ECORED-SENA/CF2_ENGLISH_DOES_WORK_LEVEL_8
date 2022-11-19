@@ -524,12 +524,12 @@
     .margin-n.p-5(style="background-color: #f0f4ff").mb-5.fst-italic
       h4.mb-4 
         span.fw-bold.r--2 Addressing someone.
-      p.line When discussing this topic in a training course, a German trainee and a British trainee 
-        SpanToolTip(texto="got")  (get)  - - - -
-        |  into a hot debate about whether it
-        span.tool (is) - - - - 
+      p.line When discussing this topic in a training course, a German trainee and a British trainee (get)
+        SpanToolTip(texto="got")    - - - -
+        |  into a hot debate about whether it (is)
+        span.tool  - - - - 
 
-      p.line When discussing this topic in a training course, a German trainee and a British trainee get)
+      p.line When discussing this topic in a training course, a German trainee and a British trainee (get)
         SpanToolTip(texto="got")   - - - -
         |  into a hot debate about whether it (is)
         span.tool  - - - - 
@@ -574,24 +574,24 @@
         .col-lg-8
           h4.mb-4.fst-italic 
             span.fw-bold.r--2 Smiling
-          p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they
-            span.tool (find) - - - - 
+          p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they (find)
+            span.tool  - - - - 
           p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they (find)
             span.tool - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4 found
             br
             br
-            | Having an increased awareness of the possible differences in expectations and behaviour 
-            span.tool (help) - - - - 
+            | Having an increased awareness of the possible differences in expectations and behaviour (help)
+            span.tool  - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4  will help
-            | us avoid cases of miscommunication, but it
-            span.tool (be) - - - - 
+            | us avoid cases of miscommunication, but it (be)
+            span.tool  - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4  will be
-            | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures
-            span.tool (play) - - - - 
+            | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures (play) 
+            span.tool - - - - 
             | Having an increased awareness of the possible differences in expectations and behaviour (help)
             span.tool - - - - 
                 .tool-up.text-center.text-white
