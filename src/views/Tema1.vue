@@ -528,17 +528,22 @@
         SpanToolTip(texto="got")  (get)  - - - -
         |  into a hot debate about whether it
         span.tool (is) - - - - 
+
+      p.line When discussing this topic in a training course, a German trainee and a British trainee get)
+        SpanToolTip(texto="got")   - - - -
+        |  into a hot debate about whether it (is)
+        span.tool  - - - - 
           .tool-up.text-center.text-white
             p.mb-4 was
-        | appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, 
-        span.tool (argued) - - - - 
+        | appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, (argued) 
+        span.tool  - - - - 
           .tool-up.text-center.text-white
             p.mb-4 argued
         | that the hard work and years of education put into earning that PhD should give them full rights to expect to be addressed as ‘Dr’.
       .row.justify-content-center
         .col-lg-8 
-          p.line This stark difference in opinion over something that could be conceived as minor and thus easily overlooked goes to show that we often attach meaning to even the most mundane practices. When things that we are used to are done differently, it could spark the strongest reactions in us. While many Continental Europeans and Latin Americans prefer to be addressed with a title, for example Mr. or Ms. and their surname when meeting someone in a business context for the first time, Americans, and increasingly the British, now tend to prefer using their first names. The best thing to do is to listen and  
-            span.tool  (observe) - - - - 
+          p.line This stark difference in opinion over something that could be conceived as minor and thus easily overlooked goes to show that we often attach meaning to even the most mundane practices. When things that we are used to are done differently, it could spark the strongest reactions in us. While many Continental Europeans and Latin Americans prefer to be addressed with a title, for example Mr. or Ms. and their surname when meeting someone in a business context for the first time, Americans, and increasingly the British, now tend to prefer using their first names. The best thing to do is to listen and  (observe)
+            span.tool   - - - - 
               .tool-up.text-center.text-white
                 p.mb-4 observe
             |how your conversation partner addresses you and, if you are still unsure, do not be afraid to ask them how they would like to be addressed.
@@ -550,6 +555,8 @@
           span.fw-bold.r--2 Smiling
         p.line.fst-italic A famous Russian proverb                               
           span.tool (state) - - - - 
+        p.line.fst-italic A famous Russian proverb (state)                             
+          span.tool - - - - 
             .tool-up.text-center.text-white 
               p.mb-4 states
           |that ‘a smile without reason is a sign of idiocy’ and a so-called ‘smile of respect’ is seen as insincere and often regarded with suspicion in Russia. Yet in countries like the United States, Australia and Britain, smiling is often interpreted as a sign of openness, friendship and respect, and is frequently used to break the ice.
@@ -557,6 +564,8 @@
           br
           | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling 
           span.tool (be) - - - - 
+          | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling (be)
+          span.tool - - - - 
             .tool-up.text-center.text-white 
               p.mb-4 will be
           |associated with dishonesty.
@@ -567,9 +576,10 @@
             span.fw-bold.r--2 Smiling
           p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they
             span.tool (find) - - - - 
+          p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they (find)
+            span.tool - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4 found
-            | the direct eye contact awkward or even disrespectful. In parts of South America and Africa, prolonged eye contact could also be seen as challenging authority. In the Middle East, eye contact across genders is considered inappropriate, although eye contact within a gender could signify honesty and truthfulness.
             br
             br
             | Having an increased awareness of the possible differences in expectations and behaviour 
@@ -582,6 +592,16 @@
                   p.mb-4  will be
             | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures
             span.tool (play) - - - - 
+            | Having an increased awareness of the possible differences in expectations and behaviour (help)
+            span.tool - - - - 
+                .tool-up.text-center.text-white
+                  p.mb-4  will help
+            | us avoid cases of miscommunication, but it (be)
+            span.tool - - - - 
+                .tool-up.text-center.text-white
+                  p.mb-4  will be
+            | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures (play)
+            span.tool - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4 will play
             |  a part in shaping the way we behave and think, we are also largely influenced by the region we come from, the communities we associate with, our age and gender, our corporate culture and our individual experiences of the world. The knowledge of the potential differences should therefore be something we keep at the back of our minds, rather than something that we use to pigeonhole the individuals of an entire nation.
@@ -996,6 +1016,25 @@
     p.mb-5(data-aos='fade-right') 
       span.r--1.fst-italic Now, read the following text and answer the questions below. 
       span(style='color: #777777') / Ahora, lea el siguiente texto y responda las preguntas relacionadas.
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad Didáctica 
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Conectors
+        p.mb-4 Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Arrastrar y soltar
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
             
           
