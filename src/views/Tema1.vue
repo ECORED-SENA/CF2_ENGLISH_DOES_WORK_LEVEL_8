@@ -225,7 +225,7 @@
         .col-lg-8(data-aos="fade-left")
           .contenedor-traductor(style='background-color: #dddeff').mb-5
             .contenedor-traductor__eng
-              p.fst-italic You can use adjectives to say a lot of different things. Thanks to adjectives, you can tell someone that you had an amazing birthday or that you ate a delicious meal. You can use adjectives to talk about your exciting vacation, your favorite movie, or even your little dog. Adjectives come in many different shapes and sizes, but many of them have something in common: skypeused to describe people, places, and things. There are many types of adjectives, but descriptive adjectives are the ones you need when you want to describe something. 
+              p.fst-italic You can use adjectives to say a lot of different things. Thanks to adjectives, you can tell someone that you had an amazing birthday or that you ate a delicious meal. You can use adjectives to talk about your exciting vacation, your favorite movie, or even your little dog. Adjectives come in many different shapes and sizes, but many of them have something in common: they are used to describe people, places, and things. There are many types of adjectives, but descriptive adjectives are the ones you need when you want to describe something. 
                 br
                 br
                 |Now, try to study these flashcards of the descriptive adjectives which can be useful to create descriptions while practicing definitions instead of meanings.
@@ -402,6 +402,8 @@
                     |To refer to the future, behind some conjunctions: 
                     br
                     |He’ll give it to you when you come next Monday.
+                  Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/temas/audios/c/H14.wav')")
+                  
                   
               .col-lg-6
                 p(style='color: #777777 ') Se utiliza el “presente simple” para expresar hábitos y rutinas, hechos generales, acciones o situaciones repetidas, emociones y deseos permanentes:
@@ -434,7 +436,7 @@
                   .col-lg-9
                     TarjetaAudio.color-secundario.mb-3(
                       texto="She eats lunch at 12:00 every Monday."
-                      :audio="require('@/assets/curso/temas/audios/c/H14.wav')"
+                      :audio="require('@/assets/curso/temas/audios/c/sh.mp3')"
                     )
                     p.ms-3(style='color: #777777 ') Ella almuerza todos los lunes a las 12:00.
           div 
@@ -506,7 +508,7 @@
             p.fst-italic To be able to put into practice the verb tenses (present, past, and future) studied before, please, read the following text and practice thinking the correct verb. 
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
-                :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/c/H18.wav')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
 
@@ -522,8 +524,8 @@
     .margin-n.p-5(style="background-color: #f0f4ff").mb-5.fst-italic
       h4.mb-4 
         span.fw-bold.r--2 Addressing someone.
-      p.line When discussing this topic in a training course, a German trainee and a British trainee
-        SpanToolTip(texto="got")  (get) - - - -
+      p.line When discussing this topic in a training course, a German trainee and a British trainee 
+        SpanToolTip(texto="got")  (get)  - - - -
         |  into a hot debate about whether it
         span.tool (is) - - - - 
           .tool-up.text-center.text-white
@@ -547,14 +549,14 @@
         h4.mb-4.fst-italic 
           span.fw-bold.r--2 Smiling
         p.line.fst-italic A famous Russian proverb                               
-          span.tool (state- - - - 
+          span.tool (state) - - - - 
             .tool-up.text-center.text-white 
               p.mb-4 states
           |that ‘a smile without reason is a sign of idiocy’ and a so-called ‘smile of respect’ is seen as insincere and often regarded with suspicion in Russia. Yet in countries like the United States, Australia and Britain, smiling is often interpreted as a sign of openness, friendship and respect, and is frequently used to break the ice.
           br
           br
           | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling 
-          span.tool - - - - 
+          span.tool (be) - - - - 
             .tool-up.text-center.text-white 
               p.mb-4 will be
           |associated with dishonesty.
@@ -564,22 +566,22 @@
           h4.mb-4.fst-italic 
             span.fw-bold.r--2 Smiling
           p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they
-            span.tool - - - - 
+            span.tool (find) - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4 found
             | the direct eye contact awkward or even disrespectful. In parts of South America and Africa, prolonged eye contact could also be seen as challenging authority. In the Middle East, eye contact across genders is considered inappropriate, although eye contact within a gender could signify honesty and truthfulness.
             br
             br
             | Having an increased awareness of the possible differences in expectations and behaviour 
-            span.tool - - - - 
+            span.tool (help) - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4  will help
             | us avoid cases of miscommunication, but it
-            span.tool - - - - 
+            span.tool (be) - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4  will be
             | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures
-            span.tool - - - - 
+            span.tool (play) - - - - 
                 .tool-up.text-center.text-white
                   p.mb-4 will play
             |  a part in shaping the way we behave and think, we are also largely influenced by the region we come from, the communities we associate with, our age and gender, our corporate culture and our individual experiences of the world. The knowledge of the potential differences should therefore be something we keep at the back of our minds, rather than something that we use to pigeonhole the individuals of an entire nation.

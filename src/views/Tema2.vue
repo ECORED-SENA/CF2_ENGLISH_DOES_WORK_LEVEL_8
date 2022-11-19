@@ -247,7 +247,7 @@ export default {
           personaje: 'Diana',
           textoIng: 'I cannot believe we are going to Colombia!',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/c/H34.wav'),
+          audio: require('@/assets/curso/temas/audios/c/H34B.wav'),
         },
         {
           personaje: 'Carla',
@@ -260,7 +260,7 @@ export default {
           personaje: 'Diana',
           textoIng: 'We must *** pick him up, but also see our families.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/c/H34B.wav'),
+          audio: require('@/assets/curso/temas/audios/c/H34.wav'),
           palabra: 'not only ',
         },
         {

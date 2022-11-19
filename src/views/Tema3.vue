@@ -34,7 +34,7 @@
         .col-lg-8.mb-lg-0.mb-3(data-aos="fade-left") 
           .contenedor-traductor(style='background-color: #dddeff')
               .contenedor-traductor__eng
-                p.fst-italic.mb-0 What’s a visa?: a citizen of a foreign country seeking another country, like the United States, must generally first obtain a US visa, which is placed in the traveler’s passport, a travel document issued by the country of which he or she is a citizen. Certain international travelers can visit the United States without a visa if they meet the requirements for visa-free travel. Let´s see the types of questions you may prepare before having that type of interview:
+                p.fst-italic.mb-0 What’s a visa?: a citizen of a foreign country seeking another country, like the United States, must generally first obtain a US visa, which is placed in the traveler’s passport, a travel document issued by the country of which he or she is a citizen. Certain international travelers can visit the United States without a visa if they meet the requirements for visa-free travel. Let’s see the types of questions you may prepare before having that type of interview:
                   br
                   br
                   |Now, listen to the following interview and try to answer what is asked: 
