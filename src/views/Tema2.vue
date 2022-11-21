@@ -251,7 +251,7 @@ export default {
         },
         {
           personaje: 'Carla',
-          textoIng: 'That´s *** we must pick him up.',
+          textoIng: 'That&#x2019s *** we must pick him up.',
           textoEsp: '',
           audio: require('@/assets/curso/temas/audios/c/H33.wav'),
           palabra: 'because',
