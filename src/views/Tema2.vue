@@ -104,7 +104,7 @@
                 div(style="background-color: #ff9fa3 ; border-radius: 5px ").mx-2.p-2.px-4.mb-3 
                   h4.mb-0 Conversely 
                 div(style="background-color: #ff9fa3 ; border-radius: 5px ").mx-2.p-2.px-4.mb-3 
-                  h4.mb-0 Altthough
+                  h4.mb-0 Although
         .py-4.py-md-5.px-5(titulo="Order of elements" :icono="require('@/assets/curso/temas/tema2/5.svg')" style='background-color: #fff7da')
           .row
             .col-md-4.mb-4.mb-md-0
@@ -112,7 +112,7 @@
             .col-md-8
               h4 Order of elements
               TarjetaAudio.bg-white.color-secundario.mb-3(
-                texto="<span class= r--1>I think they</span> have been very unfair to her. <br><span class= r--3>Firstly</span>, because I consider her the best typist in the world. <br><br><span class= r--3>Secondly, because she has worked very hard to get the job.</span> "
+                texto="<span class= r--1>I think they</span> have been very unfair to her. <br><span class= r--3>Firstly ,</span> because I consider her the best typist in the world. <br><br><span class= r--3>Secondly, because she has worked very hard to get the job.</span> "
                 :audio="require('@/assets/curso/temas/audios/c/H30.wav')"
               )
               .flex-wrap.d-flex.align-ites-center.justify-content-center
@@ -138,7 +138,7 @@
               h4 Cause
               TarjetaAudio.bg-white.color-secundario.mb-3(
                 texto="<span class= r--1>I didn’t tell</span> you this <span class= r--3>because</span> I didn’t know about it yet. "
-                :audio="require('@/assets/curso/temas/audios/tema2/c5.mp3')"
+                :audio="require('@/assets/curso/temas/tema2/CAUSE_AUDIO.mp3')"
               )
               .flex-wrap.d-flex.align-ites-center.justify-content-center
                 div(style="background-color: #ff9fa3 ; border-radius: 5px ").mx-2.p-2.px-4.mb-3
@@ -220,10 +220,27 @@
               .contenedor-traductor__esp(:class="{ mostrar: dg1}")
                 p Luego de saber qué son los linkers y haber citado ejemplos, escuchemos la conversación y veamos el uso de algunos de ellos:
               a.boton-traduccion(@click='dg1 = !dg1' style='background-color: #fed947; color: #12263F') Ver traducción
-    Dialogo.color-primario(:dialogo="dialogo")
+    Dialogo.color-primario(:dialogo="dialogo").mb-5
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Excercise adverbs of degree
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Conectors
+        p.mb-4 Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Arrastrar y soltar
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 </template>
 
 <script>

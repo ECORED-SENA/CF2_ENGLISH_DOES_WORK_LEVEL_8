@@ -373,10 +373,10 @@
                   p Los tiempos verbales son formas verbales (visit, visited, will visit) que los hablantes de inglés usan para hablar sobre el pasado, el presente y el futuro, en su idioma. Hay doce formas de tiempo verbal en inglés. Para los estudiantes de inglés, saber cómo usar los tiempos verbales puede ser todo un desafío. ¡Empecemos!
                 a.boton-traduccion(@click='dg8 = !dg8' style='background-color: #fed947; color: #12263F') Ver traducción
     .margin-n.p-5.bg-t1.mb-5
-      p Los tiempos verbales son formas verbales (visit, visited, will visit) que los hablantes de inglés usan para hablar sobre el pasado, el presente y el futuro, en su idioma.
       .tarjeta.bg-white.p-5
         SlyderA(tipo='b')
           div
+            h5.text-center.fst-italic Present simple
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-6
                 .tarjeta(style="background-color: #dddeff ").p-4
@@ -440,37 +440,7 @@
                     )
                     p.ms-3(style='color: #777777 ') Ella almuerza todos los lunes a las 12:00.
           div 
-            .row.justify-content-center.mb-5
-              .col-lg-7 
-                .contenedor-traductor(style='background-color: #dddeff').mb-5
-                  .contenedor-traductor__eng
-                    p.fst-italic The simple future refers to a time after the present and expresses facts or certainties. The future simple is used: to predict a future event, to express a spontaneous decision, to express will or willingness to do something. 
-                    .d-flex.justify-content-end
-                      Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/29.mp3')"
-                        @audio-hover="mostrarIndicadorAudio = false"
-                      )
-
-                    .contenedor-traductor__esp(:class="{ mostrar: dg9}")
-                      p El futuro simple se refiere a un tiempo posterior al presente y expresa hechos o certezas. El futuro simple se usa: para predecir un evento futuro, para expresar una decisión espontánea, para expresar disposición o voluntad de hacer algo.
-                    a.boton-traduccion(@click='dg9 = !dg9' style='background-color: #fed947; color: #12263F') Ver traducción
-                p.text-center.fst-italic Example: 
-                .row.justify-content-center.mb-3
-                  .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/27.svg', alt='')
-                  .col-lg-6
-                    TarjetaAudio.color-secundario.mb-3(
-                      texto="She <span class= r--1>will go</span> to the hospital."
-                      :audio="require('@/assets/curso/temas/audios/tema1/30.mp3')"
-                    )
-                .row.justify-content-center.mb-5
-                  .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/28.svg', alt='')
-                  .col-lg-6
-                    TarjetaAudio.color-secundario.mb-3(
-                      texto="She <span class= r--1>will not</span> sleep. "
-                      :audio="require('@/assets/curso/temas/audios/tema1/30-1.mp3')"
-                    )
-              .col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/29.png', alt='')    
-          div 
+            h5.fst-italic.text-center Past simple
             .row.justify-content-center.mb-5
               .col-lg-7 
                 .contenedor-traductor(style='background-color: #dddeff').mb-5
@@ -501,6 +471,38 @@
                       :audio="require('@/assets/curso/temas/audios/tema1/28-1.mp3')"
                     )
               .col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/32.png', alt='')  
+          div 
+            h5.text-center.fst-italic Simple future
+            .row.justify-content-center.mb-5
+              .col-lg-7 
+                .contenedor-traductor(style='background-color: #dddeff').mb-5
+                  .contenedor-traductor__eng
+                    p.fst-italic The simple future refers to a time after the present and expresses facts or certainties. The future simple is used: to predict a future event, to express a spontaneous decision, to express will or willingness to do something. 
+                    .d-flex.justify-content-end
+                      Audio.color-secundario.mx-3(
+                        :audio="require('@/assets/curso/temas/audios/tema1/29.mp3')"
+                        @audio-hover="mostrarIndicadorAudio = false"
+                      )
+
+                    .contenedor-traductor__esp(:class="{ mostrar: dg9}")
+                      p El futuro simple se refiere a un tiempo posterior al presente y expresa hechos o certezas. El futuro simple se usa: para predecir un evento futuro, para expresar una decisión espontánea, para expresar disposición o voluntad de hacer algo.
+                    a.boton-traduccion(@click='dg9 = !dg9' style='background-color: #fed947; color: #12263F') Ver traducción
+                p.text-center.fst-italic Example: 
+                .row.justify-content-center.mb-3
+                  .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/27.svg', alt='')
+                  .col-lg-6
+                    TarjetaAudio.color-secundario.mb-3(
+                      texto="She <span class= r--1>will go</span> to the hospital."
+                      :audio="require('@/assets/curso/temas/audios/tema1/30.mp3')"
+                    )
+                .row.justify-content-center.mb-5
+                  .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/28.svg', alt='')
+                  .col-lg-6
+                    TarjetaAudio.color-secundario.mb-3(
+                      texto="She <span class= r--1>will not</span> sleep. "
+                      :audio="require('@/assets/curso/temas/audios/tema1/30-1.mp3')"
+                    )
+              .col-lg-5.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/29.png', alt='')   
     .row.justify-content-center.mb-5
       .col-lg-10
         .contenedor-traductor(style='background-color: #dddeff').mb-5
@@ -557,6 +559,8 @@
           br
           | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling (be)
           span.tool  - - - - 
+            .tool-up.text-center.text-white 
+                p.mb-4 will be
           | In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling (be)
           span.tool - - - - 
             .tool-up.text-center.text-white 
@@ -566,7 +570,7 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           h4.mb-4.fst-italic 
-            span.fw-bold.r--2 Smiling
+            span.fw-bold.r--2 Eye contact
           p.line.fst-italic An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they (find)
             span.tool - - - - 
                 .tool-up.text-center.text-white
@@ -583,6 +587,8 @@
                   p.mb-4  will be
             | vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures (play) 
             span.tool - - - - 
+              .tool-up.text-center.text-white
+                    p.mb-4  will play
             | Having an increased awareness of the possible differences in expectations and behaviour (help)
             span.tool - - - - 
                 .tool-up.text-center.text-white
@@ -652,13 +658,13 @@
                 )
 
               .contenedor-traductor__esp(:class="{ mostrar: dg12}")
-                p Los verbos irregulares en inglés son aquellos cuya conjugación no retoma la terminación -ed en sus formas de pretérito y pasado participio. Por esto, para conjugar este tipo de verbos, es necesario contemplar reglas y excepciones específicas.
+                p Los verbos irregulares en inglés son aquellos cuya conjugación no se hace con ed al final en las formas de pasado y participio. Por eso, para conjugar este tipo de verbos es necesario saberlos de memoria.
                   br
                   br
-                  |La importancia de dominar los verbos irregulares es que existe una infinidad de ellos, desde los que son de uso diario, tal es el caso del verbo to be, como aquellos de usos especializados para distintas profesiones y labores.
+                  |La importancia de dominar los verbos irregulares es que sin ellos no hay comunicación.
                   br
                   br
-                  |Cabe subrayar que los verbos irregulares cumplen las mismas funciones que los verbos regulares, es decir, expresar estados o acciones, y se ubican dentro de la oración en la misma posición que los regulares.
+                  |Cabe señalar que los verbos irregulares cumplen las mismas funciones que los verbos regulares, es decir, expresan estados o acciones, y se ubican dentro de la oración en la misma posición que los verbos regulares.
 
               a.boton-traduccion(@click='dg12 = !dg12' style='background-color: #fed947; color: #12263F') Ver traducción
           .row.justify-content-center.mb-3
@@ -708,7 +714,7 @@
                       |#[b I felt silly.]
                     .d-flex.justify-content-end
                       Audio.color-secundario.mx-3(
-                        :audio="require('@/assets/curso/temas/audios/tema1/34.mp3')"
+                        :audio="require('@/assets/curso/temas/audios/c/nuevo.mp3')"
                         @audio-hover="mostrarIndicadorAudio = false"
                       )
 
@@ -868,7 +874,7 @@
         .col-lg-10(data-aos="zoom-in")
           .contenedor-traductor(style='background-color: #dddeff')
             .imagen-traductor.d-none.d-lg-block
-              img(src='@/assets/curso/temas/tema1/45.png', alt='')
+              img(src='@/assets/curso/temas/tema1/45.png', alt='' style='width: 170px')
             .contenedor-traductor__eng
               .ms-5
                 p.fst-italic.mb-3.ms-5 To keep on working with the mixed sentences, listen to the song It’s Time by Imagine Dragons and identify the tenses, the sentence structure and the meaning of it taking into account the context. If you want to google it, it’s ok or just follow the link and identify the regular and irregular verbs:
@@ -980,12 +986,6 @@
                 |¿Qué es la técnica skimming?
                 br
                 br
-                | Puede usar adjetivos para decir muchas cosas diferentes. Gracias a los adjetivos, puede decirle a alguien que tuvo un cumpleaños increíble o que comió una comida deliciosa. Puede usar adjetivos para hablar sobre sus emocionantes vacaciones, su película favorita o incluso su perrito. Los adjetivos vienen en muchas formas y tamaños diferentes, pero muchos de ellos tienen algo en común: se usan para describir personas, lugares y cosas. Existen muchos tipos de adjetivos, pero los adjetivos descriptivos son los que necesita cuando quiere describir algo. 
-                br
-                br
-                |Ahora, intente estudiar estas tarjetas con los adjetivos descriptivos que pueden ser útiles para crear descripciones, mientras practica definiciones en lugar de significados:
-                br
-                br
                 |Este método de estudio se utiliza para extraer las ideas más importantes de un texto. Ahora bien, para ello, iremos directamente a los primeros y últimos párrafos, igual que a los títulos, subtítulos y epígrafes de cada apartado, analizando la estructura del contenido a desarrollar.
                 br
                 br
@@ -1009,23 +1009,7 @@
       span(style='color: #777777') / Ahora, lea el siguiente texto y responda las preguntas relacionadas.
     .titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 Actividad Didáctica 
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure
-            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Conectors
-        p.mb-4 Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.
-        .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar
-            .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
-                span Realizar
-                i.fas.fa-puzzle-piece
+    
 
             
           
