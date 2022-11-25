@@ -207,17 +207,17 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em> Descriptive text</em>',
+      termino: '<em>Descriptive text</em>',
       significado:
         'elaboración escrita en la que se cuenta acerca de la apariencia física de un objeto, animal, cosa, situación, etc.',
     },
     {
-      termino: '<em> Journalistic text</em>',
+      termino: '<em>Journalistic text</em>',
       significado:
         'los textos periodísticos son textos publicados en medios escritos (como periódicos, revistas o páginas web informativas), cuya función principal es informar al lector sobre un tema de interés general.',
     },
     {
-      termino: '<em> Expository text</em>',
+      termino: '<em>Expository text</em>',
       significado:
         'brinda información sobre hechos y conceptos específicos. Su objetivo principal es difundir contenido comprensible para el receptor. Por ejemplo: la definición de un concepto en un diccionario, el contenido de los manuales de estudio o un artículo de ciencia publicado en una revista.',
     },

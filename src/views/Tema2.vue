@@ -112,7 +112,7 @@
             .col-md-8
               h4 Order of elements
               TarjetaAudio.bg-white.color-secundario.mb-3(
-                texto="<span class= r--1>I think they</span> have been very unfair to her. <br><span class= r--3>Firstly ,</span> because I consider her the best typist in the world. <br><br><span class= r--3>Secondly, because she has worked very hard to get the job.</span> "
+                texto="<span class= r--1>I think they</span> have been very unfair to her. <br><span class= r--3>Firstly,</span> because I consider her the best typist in the world. <br><br><span class= r--3>Secondly, because she has worked very hard to get the job.</span> "
                 :audio="require('@/assets/curso/temas/audios/c/H30.wav')"
               )
               .flex-wrap.d-flex.align-ites-center.justify-content-center
@@ -224,6 +224,8 @@
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Excercise adverbs of degree
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad Didáctica 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4

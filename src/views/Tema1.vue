@@ -1007,8 +1007,7 @@
     p.mb-5(data-aos='fade-right') 
       span.r--1.fst-italic Now, read the following text and answer the questions below. 
       span(style='color: #777777') / Ahora, lea el siguiente texto y responda las preguntas relacionadas.
-    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Actividad Didáctica 
+    
     
 
             
