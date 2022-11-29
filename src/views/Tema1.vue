@@ -141,7 +141,7 @@
             a.boton-traduccion(@click='dg5 = !dg5' style='background-color: #fed947; color: #12263F') Ver traducción
         .contenedor-traductor(style='background-color: #dddeff').mb-5
           .contenedor-traductor__eng
-            p.fst-italic Now, you will have the opportunity to practice reading texts and match them with an image that exemplifies the narration. Keep in mind that in all cases you must identify the purpose of the text, the noun of the sentence, the adverbs used to describe actions, and/or the adjectives that describe the noun, respectively. If there is unknown vocabulary, please write it and make sure you learn it through permanent use.
+            p.fst-italic Now, you will have the opportunity to practice reading texts and match them with an image that exemplifies the narration. Keep in mind that in all cases you must identify the purpose of the text, the noun of the sentence, the adverbs used to describe actions, and/or the adjectives that describe the noun, respectively. If there is unknown vocabulary, please write it and make sure to learn it through permanent use.
             .d-flex.justify-content-end
               Audio.color-secundario.mx-3(
                 :audio="require('@/assets/curso/temas/audios/c/H7.wav')"
